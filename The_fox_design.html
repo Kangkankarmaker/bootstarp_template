@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>temp-6</title>
+		
+		<!-- company icon-->
+		<link rel="icon" href="images/k.png" >
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		
+		<!-- fonr awosome sheet-->
+		<link rel="stylesheet" href="css/all.css">
+		
+		<!-- fonr awosome sheet-->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- LIGHTBOX sheet-->
+		<link rel="stylesheet" href="css/lightbox.css"  />
+		
+		<!-- WOW css-->
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<!-- WoW CSS  -->
+		<link rel="stylesheet" href="css/animate.min.css">
+		
+	
+		<!-- owl-carousel CSS -->
+	    <link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+		<style>
+				
+				
+		</style>
+			
+	</head>
+	<body data-spy="scroll" data-target="#main-nav" data-offset="100">
+		
+		<main>
+			
+		<!--The fox design  Part -->
+			<section id="The_fox_design" >
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 mb-5 wow animate__fadeInLeft  "   data-wow-duration="1s" data-wow-offset="200">
+							<h2 class="text-dark text-capitalize mb-0 ">Here your Address</h2>
+							
+							<ul class="ml-n5">
+								<!-- list Bar -->
+								<a class="btn text-secondary " href="#"><i class="fab fa-facebook-f"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-twitter"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-whatsapp"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-instagram"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-tumblr"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-linkedin-in"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-snapchat"></i></a>
+								<a class="btn text-secondary " href="#"><i class="fab fa-pinterest-p"></i></a>
+							</ul>
+							   
+							<p class="text-secondary small text-capitalize">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+							
+							<h4 class="text-secondary small text-capitalize">236 Banbury Road,Summer Town</h4>
+							<h4 class="text-secondary small text-capitalize">Oxford,United Kingdom 0x2 7HT</h4>
+							<h4 class="text-secondary small text-capitalize">United Kingdom.</h4>
+							<h4 class="text-secondary small text-capitalize">Phone:019********</h4>
+							<h4 class="text-secondary small text-capitalize">Email:......@mail.com</h4>
+							<h4 class="text-secondary small text-capitalize">Fax:018********</h4>
+							
+						</div>
+						
+						<div class="col-md-6 col-sm-12 wow animate__fadeIn" bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
+							<form name="contactForm" onsubmit="if(confirm('Do You Want to Send This Message?')){ if(myValidation() == false){ return false;} }else{event.preventDefault(); return false;}">
+							<!-- Form Part 1 -->
+							
+								<div class="form-group">
+									<input type="text" name="name"  class="form-control bg-transparent" value="" Placeholder="Name*" onfocus="myFocus(this)">
+									<span id="name-error"></span>
+								</div>
+									
+								<div class="form-group">
+									<input type="email" name="email" class="form-control bg-transparent" value="" Placeholder="Email*" onfocus="myFocus(this)">
+									<span id="email-error"></span>
+								</div>
+								
+								<div class="form-group">
+									<input type="email" name="email" class="form-control bg-transparent" value="" Placeholder="Phone Number" onfocus="myFocus(this)">
+									<span id="email-error"></span>
+								</div>
+									
+								<div  class="form-group">
+									<textarea name="message" class="form-control bg-transparent" placeholder="Message" onfocus="myFocus(this)" style="height:100px"></textarea>
+									<span id="message-error"></span>
+								</div>
+								
+								<div class="my-3 text-center w-100">
+									<button type="submit" class="btn btn-block btn-dark" style="border-radius:5px; margin-top:10px">Submit Now</button>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+		</main>
+		
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- LIGHTBOX JavaScript -->
+		<script src="js/lightbox-plus-jquery.js"></script>
+		
+		<!-- WOW JavaScript-->
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		
+		<!-- owlCarousel JavaScript-->
+		<script src="js/owl.carousel.min.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+			  $(".owl-carousel").owlCarousel();
+			});
+			
+			
+			var owl = $('.owl-carousel');
+			owl.owlCarousel({
+				items:5,
+				loop:true,
+				margin:2,
+				autoplay:true,
+				autoplayTimeout:1000,
+				autoplayHoverPause:true
+			});
+			$('.play').on('click',function(){
+				owl.trigger('play.owl.autoplay',[1000])
+			})
+			$('.stop').on('click',function(){
+				owl.trigger('stop.owl.autoplay')
+			})
+			
+		</script>
+	</body>
+</html>

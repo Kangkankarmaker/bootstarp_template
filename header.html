@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>temp-6</title>
+		
+		<!-- company icon-->
+		<link rel="icon" href="images/k.png" >
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		
+		<!-- fonr awosome sheet-->
+		<link rel="stylesheet" href="css/all.css">
+		
+		<!-- fonr awosome sheet-->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- LIGHTBOX sheet-->
+		<link rel="stylesheet" href="css/lightbox.css"  />
+		
+		<!-- WOW css-->
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<!-- WoW CSS  -->
+		<link rel="stylesheet" href="css/animate.min.css">
+		
+	
+		<!-- owl-carousel CSS -->
+	    <link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+		<style>
+				
+				
+		</style>
+			
+	</head>
+	<body data-spy="scroll" data-target="#main-nav" data-offset="100">
+		
+		<header class="border-bottom fixed-top">
+			
+			<!-- nav bar-part-1 -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+			  <div class="container-md text-center container-fluid">
+				<div class="collapse navbar-collapse" id="main-nav">
+				  <ul class="my-auto ml-n5">
+					<!-- list Bar -->
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-facebook-f"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-twitter"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-whatsapp"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-instagram"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-tumblr"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-linkedin-in"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-snapchat"></i></a>
+					<a class="btn text-white btn-sm" href="#"><i class="fab fa-pinterest-p"></i></a>
+				   </ul>			  
+					<div class="ml-sm-auto  ml-auto">
+						<a href="#" class="btn btn-sm btn-outline-light ">Register</a>
+						<a href="#" class="btn btn-sm btn-light btn-outline-dark">Join Now</a>
+					</div>
+					
+				</div>
+			  </div>
+			</nav>
+			
+			<!-- nav bar-part-2 -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <div class="container">
+				<a class="navbar-brand d-flex" href="#">
+					<!-- Company Name & Logo -->
+					<img src="images/fox.png" alt="Logo" height="50px">
+					<h4 class="my-auto ml-3">Your logo</h4>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse ml-3" id="main-nav">
+				  <ul class="navbar-nav mr-auto">
+					<!-- Manu Bar -->
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#Page">Page</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#portfolio">portfolio</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#Blog">Blog</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#Shop">Shop</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#Travel">Travel</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#Shortcodes">Shortcodes</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#Features">Features</a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#search"><i class="fas fa-search"></i></a></li>
+					<li class="nav-item"><a class="nav-link  mr-2 "  href="#shop"><i class="fas fa-shopping-basket"></i></a></li>
+				  </ul>
+				 
+				</div>
+			  </div>
+			</nav>
+		</header>
+		
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- LIGHTBOX JavaScript -->
+		<script src="js/lightbox-plus-jquery.js"></script>
+		
+		<!-- WOW JavaScript-->
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		
+		<!-- owlCarousel JavaScript-->
+		<script src="js/owl.carousel.min.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+			  $(".owl-carousel").owlCarousel();
+			});
+			
+			
+			var owl = $('.owl-carousel');
+			owl.owlCarousel({
+				items:5,
+				loop:true,
+				margin:2,
+				autoplay:true,
+				autoplayTimeout:1000,
+				autoplayHoverPause:true
+			});
+			$('.play').on('click',function(){
+				owl.trigger('play.owl.autoplay',[1000])
+			})
+			$('.stop').on('click',function(){
+				owl.trigger('stop.owl.autoplay')
+			})
+			
+		</script>
+	</body>
+</html>
