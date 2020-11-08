@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>temp-6</title>
+		
+		<!-- company icon-->
+		<link rel="icon" href="images/k.png" >
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		
+		<!-- fonr awosome sheet-->
+		<link rel="stylesheet" href="css/all.css">
+		
+		<!-- fonr awosome sheet-->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- LIGHTBOX sheet-->
+		<link rel="stylesheet" href="css/lightbox.css"  />
+		
+		<!-- WOW css-->
+		<link rel="stylesheet" href="css/animate.css">
+		
+		<!-- WoW CSS  -->
+		<link rel="stylesheet" href="css/animate.min.css">
+		
+	
+		<!-- owl-carousel CSS -->
+	    <link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+		<style>
+				
+				
+		</style>
+			
+	</head>
+	<body data-spy="scroll" data-target="#main-nav" data-offset="100">
+		
+		<main>
+			
+			<!-- clients Part -->
+			<section id="clients" class="pb-0">
+			
+				<div class="container">
+					<!-- clients Content Part -->
+					<div class="row">
+					
+						<div class="col-xl-2 col-4"><!-- clients Content 001 -->
+							<img class="w-100" src="images/rw1.png">
+						</div>
+						
+						<div class="col-xl-2 col-4"><!-- clients Content 002 -->
+							<img class="w-100" src="images/rw2.png">
+						</div>
+						<div class="col-xl-2 col-4"><!-- clients Content 003 -->
+							<img class="w-100" src="images/rw3.png">
+						</div>
+						<div class="col-xl-2 col-4"><!-- clients Content 004 -->
+							<img class="w-100" src="images/rw4.png">
+						</div>
+						
+						<div class="col-xl-2 col-4"><!-- clients Content 005 -->
+							<img class="w-100" src="images/rw5.png">
+						</div>
+						
+						<div class="col-xl-2 col-4"><!-- clients Content 006 -->
+							<img class="w-100" src="images/rw6.png">
+						</div>
+					</div>
+				</div>	
+			</section>
+
+			
+		</main>
+		
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<!-- LIGHTBOX JavaScript -->
+		<script src="js/lightbox-plus-jquery.js"></script>
+		
+		<!-- WOW JavaScript-->
+		<script src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
+		
+		<!-- owlCarousel JavaScript-->
+		<script src="js/owl.carousel.min.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+			  $(".owl-carousel").owlCarousel();
+			});
+			
+			
+			var owl = $('.owl-carousel');
+			owl.owlCarousel({
+				items:5,
+				loop:true,
+				margin:2,
+				autoplay:true,
+				autoplayTimeout:1000,
+				autoplayHoverPause:true
+			});
+			$('.play').on('click',function(){
+				owl.trigger('play.owl.autoplay',[1000])
+			})
+			$('.stop').on('click',function(){
+				owl.trigger('stop.owl.autoplay')
+			})
+			
+		</script>
+	</body>
+</html>

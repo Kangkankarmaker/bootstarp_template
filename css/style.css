@@ -1,0 +1,113 @@
+/* ========= Global Css ======== */
+section{
+	padding-top:122px;
+	padding-bottom:75px;
+}
+
+
+/* ========= Slider Part Css ======== */
+#main-slider .carousel-control-next, 
+#main-slider .carousel-control-prev{
+	width:50px!important;
+}
+	
+#main-nav ul> li>a.active{
+	border-bottom: 2px solid #17a2b8;
+	
+}
+
+.list-style{
+	list-style: none;
+}
+
+/* ========= What other say Part Css ======== */
+
+.carousel-img-border{
+	border:1px solid #80808073;
+	border-radius: 50%;
+}
+
+/* ========= hello Part Css ======== */
+
+.img-border{
+	border: 1px solid #80808073;
+}
+
+/* ========= Amazing works Part Css ======== */
+
+#portfolio{
+	background-color:#c3c3c338;
+}
+#portfolio .card-img-overlay{
+	visibility:hidden;
+}
+#portfolio .card-hover:hover .card-header{
+	background-color:#A1B2BC;
+	color:white;
+}
+#portfolio .card-hover:hover .card-img-overlay{
+	background-color: #222534;
+	visibility:visible;
+}
+
+/* ========= standard Blog Part Css ======== */
+
+#standardBlog .card-img-overlay{
+	visibility:hidden;
+}
+
+#standardBlog .col-sm:hover .card-img-overlay{
+	background-color: #0a1b2fcf;
+	visibility:visible;
+}
+
+#standardBlog .col:hover .text-hover{
+	visibility:hidden;
+}
+
+
+
+/* ========= Get Stronger Part Css ======== */
+
+#Get_Stronger{
+	background-image:url('../images/get_stronger.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+/* ========= footer Part Css ======== */
+
+#footer-part{
+	border-top: 2px solid #17a2b8;
+	background-color:#1A1C28;
+}
+
+
+
+@media(max-width:576px){
+	.h5-sm{
+		font-size:1rem
+	}
+	.h1-sm{
+		font-size:1.5rem
+	}
+	.h6-sm{
+		font-size:.88rem
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
